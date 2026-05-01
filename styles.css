@@ -1,0 +1,22 @@
+.fixgithub-octocat-logo,
+.fixgithub-cyber-kitten-logo {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+}
+
+.fixgithub-cyber-kitten-logo {
+  filter: drop-shadow(0 0 5px rgba(0, 229, 255, 0.7));
+}
+
+.fixgithub-main-copilot-logo {
+  height: 48px;
+  width: 48px;
+}
+
+.AppHeader-logo .fixgithub-octocat-logo,
+header .fixgithub-octocat-logo,
+a[aria-label="GitHub homepage"] .fixgithub-octocat-logo {
+  object-fit: contain;
+}
